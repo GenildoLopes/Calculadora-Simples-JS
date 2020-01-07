@@ -8,11 +8,14 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
+
+    <script src="script.js"></script>
+
 </head>
     <!-- Calculator Interface -->
 <body>
     <div class="box-1">
-            <h1>Simple Calculator</h1>
+            <h1>Simple Calculator (Division)</h1>
         <div class="box-2">
         <!-- Num 1 -->
         <input type="text" id="num-1">
@@ -22,14 +25,13 @@
         <!-- Button -->
         <button type="submit" onclick="result()">RES</button>
         <!-- Res. -->
-            <div class="box-res">
-                <h2></h2>
+            <div id="box-res">
+                <h3 id="res-txt"></h3>
             </div>
         </div>
     </div>
     
 
     <!-- JS -->
-    <script src="script.js"></script>
 </body>
 </html>

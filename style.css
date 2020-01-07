@@ -52,10 +52,18 @@ span {
     padding: 10px;
 }
 
-.box-res {
-    width: 10rem;
-    height: 50px;
+#box-res {
+    width: 7rem;
+    height: 40px;
     border: 1px solid rgb(21, 23, 99);
     border-radius: 10px;
-    padding: 0.5rem;
+    padding: 10px;
+}
+
+#res-txt {
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin: 0;
 }
